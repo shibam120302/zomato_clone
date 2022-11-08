@@ -1,4 +1,4 @@
-# Tomato (zomato clone)
+# ZOGATO (zomato clone)
 
 **Live App Demo Link:** [Zomato Clone Live App Demo](https://zomatoclone.koushilmankali.com/)
 
