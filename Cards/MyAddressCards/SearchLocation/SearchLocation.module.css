@@ -1,0 +1,113 @@
+.outerDiv{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.innerDiv{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ttl{
+    margin: 0.5rem 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color-title-text);
+}
+
+.imgBox{
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.closeIcon{
+    width: 100%;
+    height: 100%;
+}
+
+.bdy{
+    width: 100%;
+    height: auto;
+}
+
+.labelTxt{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-p5-text);
+}
+
+.addBox{
+    width: 100%;
+    height: auto;
+    margin: 0.5rem 0;
+    border: var(--brd2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconImgBox{
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lcticon{
+    width: 25px;
+    height: 25px;
+}
+
+.inptBox{
+    width: 92%;
+    outline: none;
+    border: none;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    color: var(--color-p5-text);
+}
+
+.results{
+    border: var(--brd2);
+    border-radius: 5px;
+    padding: 0.2rem;
+    height: auto;
+}
+
+.result{
+    padding: 0.5rem;
+    border-bottom: var(--brd3);
+}
+
+.result:hover{
+    background-color: var(--bg-ash);
+    cursor: pointer;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: 450;
+    color: var(--color-title-text);
+    margin-bottom: 0.4rem;
+}
+
+.address{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--color-p5-text);
+}
+
+::placeholder{
+    font-size: 1rem ;
+    color: var(--color-p1-text);
+}
