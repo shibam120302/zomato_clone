@@ -1,0 +1,40 @@
+.outerDiv{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.innerDiv{
+    width: 100%;
+    height: auto;
+}
+
+.title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-title-text);
+}
+
+.contectBox{
+    width: 100%;
+    height: auto;
+    margin: 0.4rem 0;
+}
+
+@media all and (max-width: 1024px){
+    .outerDiv{
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 768px){
+    .outerDiv{
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 420px){
+    .outerDiv{
+        padding: 0px;
+    }
+}

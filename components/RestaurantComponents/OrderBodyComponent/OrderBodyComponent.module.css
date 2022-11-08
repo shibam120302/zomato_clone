@@ -1,0 +1,39 @@
+.outerDiv{
+    width: 100%;
+    min-height: 700px;
+    height: 100%;
+}
+
+.innerDiv{
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+    border-bottom: var(--brd2-2p);
+    overflow-y: scroll;
+}
+
+.menu::-webkit-scrollbar{
+    display: none;
+}
+
+.menuTxt{
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    color: var(--color-p1-text);
+    text-decoration: none;
+}
+
+.menuTxtActive{
+    color: var(--color-redish1);
+    border-bottom: var(--brd-redish-color-2p);
+}
+
+.componentsBody{
+    width: 100%;
+    height: 700px;
+    height: 100%;
+}
